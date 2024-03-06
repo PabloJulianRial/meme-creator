@@ -1,0 +1,112 @@
+* {
+    /* border: 1px solid black; */
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.img-container {
+    
+    position: absolute;
+    height: 500px;
+    width: 500px;
+}
+
+
+img {
+    height: 100%;
+    width: 100%;
+    border: solid whitesmoke 2px;
+    
+}
+
+.meme-text-wrapper {
+position: absolute;
+width: 500px;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.meme-text {
+color: blanchedalmond;
+background-color: black;
+font-size: x-large;
+padding: 5px;
+border: 1px red dashed;
+}
+
+#doublediv {
+    width: 100%;
+    height: 100%
+}
+
+
+#text-wrapper-top {
+    padding-top: 50px;
+}
+
+#text-wrapper-bottom {
+   padding-top: 400px;
+    
+}
+
+.bad-url {
+    background-color: red;
+}
+
+
+#error-message {
+    font-size: larger;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    margin-left: 10rem;
+}
+
+form {
+    padding: 1rem;
+    border: 2px dashed black;
+    width: 500px;
+    margin-left: 10rem;
+}
+
+
+label {
+    width: 100px
+}
+h1  {
+    font-weight: bolder;
+    text-shadow: 0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;;
+    color: rgb(217, 91, 82);
+    text-align: center;
+    font-size: 6rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.meme-section {
+    padding-left: 10rem;
+    
+}
+button {
+    margin-top: 1rem;
+}

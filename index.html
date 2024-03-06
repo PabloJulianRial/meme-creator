@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme creator Pro</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Meme creator Pro</h1>
+    </header>
+    <main>
+        <section class="form-section ">
+            <p id="error-message">Please give an image link, and your meme text below! Square images work best.</p>
+            <form action="" name="memeForm" method="get" onsubmit="memeGenerator();return false">
+               
+                <label for="image-url">Image Url</label>
+                <input type="url" placeholder="http://someurl.jpg" id="image-url" name="imageUrl" >
+                <a href="/photogallery.html" target="_blank">Choose an Image Here</a>
+                <br>
+                <label for="top-text">Top text</label>
+                <input type="text" placeholder="some text"id="top-text" name="topText" >
+                <br>
+                <label for="bottom-text">Bottom text</label>
+                <input type="text" placeholder="some more text"id="bottom-text" name="bottomText" >
+                
+                <button type="submit" class="btn btn-danger btn-block" id="submit-button">Generate meme</button>
+            </form>
+            <br>
+        </section>
+        <section class="meme-section">
+            <div class="img-container">
+                <img src="https://imgflip.com/s/meme/Success-Kid.jpg" alt="meme image" id="meme-image">
+          
+        </div>
+        <div id="doublediv">
+        <div class="meme-text-wrapper" id="text-wrapper-top"><p class="meme-text" id="meme-top">your top text will go here</p></div>
+        <div class="meme-text-wrapper" id="text-wrapper-bottom"><p class="meme-text" id="meme-bottom">your bottom text will go here</p></div>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
